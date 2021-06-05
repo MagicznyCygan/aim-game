@@ -46,7 +46,7 @@ const deleteTargetIfNotClicked = (target) => {
 }
 
 const playShootSound = () => {
-    var audio = new Audio('music/shoot.mp3');
+    var audio = new Audio('../music/shoot.mp3');
     audio.play();
 }
 setInterval(game, 3000)
